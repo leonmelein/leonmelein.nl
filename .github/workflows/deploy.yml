@@ -1,7 +1,7 @@
 name: Deploy Site
 on:
-#   push:
-#     branches: ['feature/redesign']
+  push:
+    branches: ['feature/redesign']
   workflow_dispatch:
 
 jobs:
