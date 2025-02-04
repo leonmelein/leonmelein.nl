@@ -1,7 +1,9 @@
 :root {
-    --brand-color: #0090e2;
-    --text-color: #000000;
-    --selection-color: oklch(0.69 0.17 245.44 / 0.35)
+      color-scheme: light dark;
+    --brand-color: light-dark(#0090e2, #0090e2);
+    --text-color: light-dark(#000000, #ffffff);
+    --selection-color: light-dark(oklch(0.69 0.17 245.44 / 0.35), oklch(0.69 0.17 245.44 / 0.35));
+    --quote-bg: light-dark(#f7f7f7, #252525);
 }
 
 @layer reset, base, nav, content, mobile;
@@ -78,7 +80,7 @@
 
     blockquote {
         border-left-color: var(--brand-color);
-        background-color: #f7f7f7;
+        background-color:  var(--quote-bg);
         border-left-width: 0.2rem;
         border-left-style: solid;
         padding-left: 1em;
@@ -149,7 +151,7 @@
 
         [aria-current]:not([aria-current="false"]) {
             font-weight: 500;
-            color: #000;
+            color: var(--text-color);
         }
 
         li {
@@ -188,6 +190,7 @@
         }
 
         svg {
+            fill: var(--text-color);
             height: 1.2rem;
             margin-right: 0.5rem;
         }
@@ -290,7 +293,7 @@
         margin-top: 1rem;
 
         hr {
-            border-color: rgb(229, 229, 229);
+            border-color: var(--quote-bg);
             border-width: 0.01em;
             border-style: solid;
         }
