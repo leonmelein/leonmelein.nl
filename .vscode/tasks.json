@@ -1,0 +1,27 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Dev Server",
+            "type": "shell",
+            "command": "hugo serve --disableFastRender",
+            "isBackground": true,
+            "background": {
+                "activeOnStart": false,
+                "beginsPattern": "^.*building.*",
+                "endsPattern": "^.*Web Server is available.*"
+            }
+        },
+        {
+            "label": "Build",
+            "type": "shell",
+            "command": "hugo --minify",
+            "isBackground": true,
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
