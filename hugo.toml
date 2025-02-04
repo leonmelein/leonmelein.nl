@@ -1,0 +1,11 @@
+baseURL = 'https://leonmelein.nl'
+languageCode = "nl-nl"
+DefaultContentLanguage = "nl"
+title = 'Léon'
+theme = 'leon2025'
+summaryLength = 20
+
+[markup.goldmark.renderer]
+    unsafe = true
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false

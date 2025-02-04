@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s › %s" .Title site.Title }}{{ end }}</title>
+<link rel="manifest" href="/app.webmanifest">
+<link rel="apple-touch-icon" href="/512.png">
+<link rel="icon" type="image/png" href="/32.png"/>
+
+<!-- Meta tags -->
+<meta name="author" content="Léon Melein">
+{{ template "_internal/opengraph.html" . }}
+{{ template "_internal/twitter_cards.html" . }}
+
+<!-- Social Verification -->
+<link rel="me" href="https://mastodon.nl/@leonmelein">
+<link rel="me" href="https://github.com/leonmelein">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+{{ partialCached "head/css.html" . }}

@@ -1,0 +1,9 @@
+baseURL = 'https://beta.leonmelein.nl'
+languageCode = 'nl-NL'
+title = 'Léon'
+summaryLength = 20
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
