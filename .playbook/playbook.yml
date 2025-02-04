@@ -12,10 +12,11 @@
         mode: '0775'
 
     - name: Copy files
-      ansible.builtin.copy:
+      ansible.posix.synchronize:
         src: "../{{ repositoryPath }}/"
         dest: /www/leonmelein
-        mode: '0644'
+        rsync_opts:
+        - "--chmod=F644"
 
 - name: Restart nginx
   hosts: all

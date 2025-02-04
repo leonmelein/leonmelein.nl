@@ -5,4 +5,4 @@ title = 'Welkom op mijn nieuwe blog!'
 summary = 'Een nieuw begin voor 2025.'
 +++
 
-Tijdens de kerstdagen heb ik mijn website een broodnodige update gegeven!
+Tijdens de kerstdagen heb ik mijn website een broodnodige update gegeven! Nu met GitOps deployment.
