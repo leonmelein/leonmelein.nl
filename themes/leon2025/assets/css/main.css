@@ -4,6 +4,7 @@
     --text-color: light-dark(#000000, #ffffff);
     --selection-color: light-dark(oklch(0.69 0.17 245.44 / 0.35), oklch(0.69 0.17 245.44 / 0.35));
     --quote-bg: light-dark(#f7f7f7, #252525);
+    --divider-bg: light-dark(rgb(229, 229, 229), rgb(160, 160, 160));
 }
 
 @layer reset, base, nav, content, mobile;
@@ -293,7 +294,7 @@
         margin-top: 1rem;
 
         hr {
-            border-color: var(--quote-bg);
+            border-color: var(--divider-bg);
             border-width: 0.01em;
             border-style: solid;
         }
