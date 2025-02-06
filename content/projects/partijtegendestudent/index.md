@@ -9,7 +9,10 @@ Tijdens mijn studententijd heb ik mij vijf jaar lang ingezet in de medezeggensch
 
 Om aandacht te genereren voor de aanstaande universiteitsraadvergaderingen, bedacht ik samen met twee vrienden de **Partij tegen de Student**. Een nieuwe, satirische partij die met gewaagde standpunten probeerde studenten wakker te schudden. Uiteraard losjes geïnspireerd op de Partij tegen de Burger van [De Speld](https://www.speld.nl/)
 
-<video src="interview.mp4" controls style="aspect-ratio: 16/9"></video>
+<video src="interview.mp4" controls preload="metadata" style="aspect-ratio: 16/9">
+    <track label="Nederlands" kind="subtitles" srclang="nl" src="interview.vtt" />
+</video>
+
 _Interview met 'LOOG TV'_
 
 Dit ludieke initiatief met serieuze ondertoon genereerde veel aandacht in de Groningse media. Naast het uitdenken van het creatieve concept, heb ik de website gemaakt. Ook heb ik het fictieve verkiezingsplan van de partij geschreven en de media te woord gestaan. Lees hieronder het interview met de Universiteitskrant, dat inmiddels niet meer op hun eigen site te vinden is.
