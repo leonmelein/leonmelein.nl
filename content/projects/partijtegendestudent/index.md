@@ -9,7 +9,7 @@ Tijdens mijn studententijd heb ik mij vijf jaar lang ingezet in de medezeggensch
 
 Om aandacht te genereren voor de aanstaande universiteitsraadvergaderingen, bedacht ik samen met twee vrienden de **Partij tegen de Student**. Een nieuwe, satirische partij die met gewaagde standpunten probeerde studenten wakker te schudden. Uiteraard losjes geïnspireerd op de Partij tegen de Burger van [De Speld](https://www.speld.nl/)
 
-<video src="interview.mp4" controls preload="metadata" style="aspect-ratio: 16/9">
+<video src="interview.mp4" poster="interview.png" controls preload="metadata" style="aspect-ratio: 16/9">
     <track label="Nederlands" kind="subtitles" srclang="nl" src="interview.vtt" />
 </video>
 
