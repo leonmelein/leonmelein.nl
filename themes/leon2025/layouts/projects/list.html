@@ -3,11 +3,14 @@
   {{ range .Pages.ByDate.Reverse }}
     <article class="projectitem">
         <a href="{{ .RelPermalink }}">
-        {{ with .Resources.GetMatch "cover.*" }}
+        {{ with .Resources.GetMatch "thumb.*" }}
+            <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="{{ .Title }}" class="thumb">
+        {{ end }}
+        {{/*  {{ with .Resources.GetMatch "cover.*" }}
             {{ with .Fill "400x400 q100 Center webp" }}
             <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="" class="thumb">
             {{ end }}
-        {{ end }}
+        {{ end }}  */}}
         </a>
     
         <div class="item-content">

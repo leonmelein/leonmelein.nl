@@ -4,7 +4,7 @@
   {{ range (where .Site.RegularPages "Section" "posts") }}
     <article class="listitem">
        {{ with .Resources.GetMatch "thumb.*" }}
-       <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="" class="thumb">
+       <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="{{ .Title }}" class="thumb">
        {{ end }}
        <div class="item-content">
          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
