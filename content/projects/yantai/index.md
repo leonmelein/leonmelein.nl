@@ -14,4 +14,4 @@ Ondanks dat het plan niet doorging, waren er in deze drie jaar al veel kosten ge
 >
 > - _Interview in [The Northern Times](https://northerntimes.nl/university-council-votes-down-600000-euros-in-public-financing-for-yantai/) (December 13, 2018)_
 
-De ruim 3 miljoen euro - die ook aan onderwijs en onderzoek in Groningen besteed had kunnen worden - heb ik omgerekend naar onder andere kopjes automatenkoffie, printjes in de universiteitsbieb en (favoriet van lokale nieuwssite Sikkom) broodjes Bapao. Bekijk de laatste stand op [Yantai.nl](https://www.yantai.nl).
+De ruim 3 miljoen euro - die ook aan onderwijs en onderzoek in Groningen besteed had kunnen worden - heb ik omgerekend naar onder andere kopjes automatenkoffie, printjes in de universiteitsbieb en (favoriet van [lokale nieuwssite Sikkom](https://sikkom.nl/actueel/Kritische-studenten-lanceren-website-die-bijhoudt-hoeveel-knaken-in-bodemloze-put-van-Yantai-verdwijnen-28188434.html)) broodjes Bapao. Bekijk de laatste stand op [Yantai.nl](https://www.yantai.nl).
