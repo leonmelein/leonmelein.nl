@@ -3,16 +3,19 @@
   {{ .Content }}
   {{ range (where .Site.RegularPages "Section" "posts") }}
     <article class="listitem">
-       {{ with .Resources.GetMatch "thumb.*" }}
-       <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="{{ .Title }}" class="thumb">
-       {{ end }}
        <div class="item-content">
          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
         {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
         {{ $dateHuman := .Date | time.Format ":date_long" }}
-        <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-        <p>{{ .Summary }}</p>
+        <p class="summary">{{ .Summary }}</p>
+        <div class="meta">
+            <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+        </div>
        </div>
+
+       {{ with .Resources.GetMatch "thumb.*" }}
+       <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="{{ .Title }}" class="thumb">
+       {{ end }}
     </article>
     <hr/>
   {{ end }}
