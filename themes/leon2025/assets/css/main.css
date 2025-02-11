@@ -2,6 +2,7 @@
       color-scheme: light dark;
     --brand-color: light-dark(#0090e2, #0090e2);
     --text-color: light-dark(#000000, #ffffff);
+    --meta-color: light-dark(#585858, #9f9f9f);
     --selection-color: light-dark(oklch(0.69 0.17 245.44 / 0.35), oklch(0.69 0.17 245.44 / 0.35));
     --quote-bg: light-dark(#f7f7f7, #252525);
     --divider-bg: light-dark(rgb(229, 229, 229), rgb(160, 160, 160));
@@ -242,6 +243,7 @@
         }
 
         time {
+            color: var(--meta-color);
             display: inline-block;
             margin-bottom: 1em;
         }
@@ -281,7 +283,7 @@
             .meta {
                 margin-top: 0.5rem;
                 font-size: 1rem;
-                color: grey;
+                color: var(--meta-color);
 
                 p {
                     display: inline-block;
@@ -309,6 +311,7 @@
         }
 
         time {
+            color: var(--meta-color);
             display: inline-block;
             margin-bottom: 0em;
         }
@@ -325,6 +328,12 @@
 
         hr:last-of-type {
             display: none;
+        }
+    }
+
+    .project {
+        time {
+            margin: 0;
         }
     }
 }

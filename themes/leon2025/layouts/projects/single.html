@@ -1,6 +1,11 @@
 {{ define "main" }}
-<article>
+{{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+{{ $dateHuman := .Date | time.Format "2006" }}
+
+<article class="project">
+  <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
   <h1>{{ .Title }}</h1>
+
   {{ with .Resources.GetMatch "cover.*" }}
     <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="">
   {{ end }}
