@@ -3,6 +3,8 @@ date = 2020-05-15T00:00:00+02:00
 draft = false
 title = 'Heb jij al gestemd?'
 description = 'Inzicht in de opkomst bij studentenverkiezingen'
+[params]
+    technologies = ['Python', 'PHP', 'Live Streaming']
 +++
 
 Tijdens mijn studententijd heb ik mij vijf jaar lang de stem van de student vertegenwoordigt in de medezeggenschap van de RUG. Veel studenten wisten echter niet hoe de medezeggenschap werkt of dat er jaarlijkse verkiezingen werden gehouden om studenten te kiezen die hun stem daar gaan vertegenwoordigen.

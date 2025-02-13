@@ -3,6 +3,8 @@ date = '2013-09-01T09:06:02+01:00'
 draft = false
 title = 'My RUG'
 description = 'Roosters, cijfers en gebouwinfo gebundeld in één app voor RUG-studenten'
+[params]
+    technologies = ['Android', 'Java', 'PHP']
 +++
 
 Toen ik na de middelbare school begon aan mijn studie, kwam ik er al snel achter dat de informatievoorziening voor studenten erg versnipperd was bij de Rijksuniversiteit Groningen (RUG). Het rooster stond op één site, de cijfers weer op een andere en informatie over de locaties van de RUG was al helemaal lastig te vinden.

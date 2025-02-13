@@ -216,10 +216,10 @@
 }
 
 @layer content {
-    main > h1 {
+    /* main > h1 {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
-    }
+    } */
 
     article {
         margin-top: 1em;
@@ -334,6 +334,16 @@
     .project {
         time {
             margin: 0;
+        }
+
+        .meta {
+            font-size: 1rem;
+            color: var(--meta-color);
+
+            .technologies > p {
+                display: inline;
+                margin-right: 0.33rem;
+            }
         }
     }
 }

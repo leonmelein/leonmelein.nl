@@ -3,6 +3,9 @@ date = '2025-01-01T00:00:00+01:00'
 draft = false
 title = 'EU Bathing Water API'
 description = 'Alle veilige zwemplekken in Europa op de kaart zetten'
+[params]
+    technologies = ['Python', 'SQLite']
+    duration = 'Actief'
 +++
 
 Waar kun je in Europa veilig zwemmen in buitenwater? Deze vraag probeer ik te beantwoorden met de [EU Bathing Water API](https://github.com/leonmelein/EUBathingWaterAPI). Het doel is om alle buitenzwemplekken in Europa te verzamelen en doorzoekbaar te maken. Daarmee vind je altijd een veilige zwemplek in de buurt. Of je nou thuis bent, of lekker op vakantie.
