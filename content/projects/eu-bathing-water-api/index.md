@@ -12,7 +12,7 @@ Waar kun je in Europa veilig zwemmen in buitenwater? Deze vraag probeer ik te be
 
 ## "United in diversity"
 
-"United in diversity", het officiële motto van de Europese Unie. Dat gaat ook op voor de data over zwemplekken in Europa. Alhoewel alle wateren volgens [dezelfde Europese richtlijn](https://eur-lex.europa.eu/eli/dir/2006/7/oj/eng) worden gemeten, worden de resultaten niet altijd even goed ontsloten.
+Het officiële motto van de Europese Unie is "united in diversity". Dat gaat ook op voor de data over zwemplekken in Europa. Alhoewel alle wateren volgens [dezelfde Europese richtlijn](https://eur-lex.europa.eu/eli/dir/2006/7/oj/eng) worden gemeten, worden de resultaten niet altijd even goed ontsloten.
 
 Sommige landen kennen goed beschreven APIs of geodiensten. Andere landen updaten deze informatie met de hand op een webpagina. Vaak zijn de gegevens niet beschikbaar voor een heel land, maar alleen per regio. Met mijn project wil ik al deze data op één plek verzamelen. Ik heb data uit onderstaande landen kunnen verzamelen:
 
@@ -24,7 +24,7 @@ Sommige landen kennen goed beschreven APIs of geodiensten. Andere landen updaten
 - Zwitserland
 - Oostenrijk
 
-Daarnaast werk ik momenteel aan het verwerken van data uit de verschillende Duitse deelstaten en Polen. Volg de GitHub repository voor de laatste stand van zaken.
+Daarnaast werk ik momenteel aan het verwerken van data uit de verschillende Duitse deelstaten en Polen. Volg de [GitHub repository](https://github.com/leonmelein/EUBathingWaterAPI) voor de laatste stand van zaken.
 
 ## Nieuwe toepassingen
 
