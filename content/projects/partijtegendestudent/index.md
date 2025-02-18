@@ -7,7 +7,7 @@ description = 'Satirisch protest tegen lage opkomst studentenverkiezingen'
 
 Tijdens mijn studententijd heb ik mij vijf jaar lang ingezet in de medezeggenschap, om de stem van de student te vertegenwoordigen binnen de universiteit. In deze jaren was de betrokkenheid van studenten bij de medezeggenschap al laag en bracht slechts een kwart van de studenten hun stem uit bij de jaarlijkse verkiezingen. De opkomst dreigde door de coronapandemie naar een absoluut dieptepunt te dalen.
 
-Om aandacht te genereren voor de aanstaande universiteitsraadvergaderingen, bedacht ik samen met twee vrienden de **Partij tegen de Student**. Een nieuwe, satirische partij die met gewaagde standpunten probeerde studenten wakker te schudden. Uiteraard losjes geïnspireerd op de Partij tegen de Burger van [De Speld](https://www.speld.nl/)
+Om aandacht te genereren voor de aanstaande universiteitsraadvergaderingen, bedacht ik samen met twee vrienden de **Partij tegen de Student**. Een nieuwe, satirische partij die met gewaagde standpunten probeerde studenten wakker te schudden. Uiteraard losjes geïnspireerd op de Partij tegen de Burger van [De Speld](https://www.speld.nl/).
 
 <video src="interview.mp4" poster="interview.png" controls preload="metadata" style="aspect-ratio: 16/9">
     <track label="Nederlands" kind="subtitles" srclang="nl" src="interview.vtt" />
