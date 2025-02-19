@@ -7,7 +7,7 @@ summary = "Reizen met een abonnement op je betaalpas kan nog lang niet overal. M
 keywords = ['OVpay', 'OV', 'betaalpas']
 +++
 
-Mijn OV-chipkaart ligt al een tijdje stof te happen omdat ik met Apple Pay in het OV reis. In Amsterdam en sommige andere regio's kan dit gelukkig ook al met korting. Mijn oude OV komt er eigenlijk alleen aan te pas bij treinreizen omdat NS Flex nog niet op de betaalpas beschikbaar is.
+Mijn OV-chipkaart ligt al een tijdje stof te happen omdat ik met Apple Pay reis. In Amsterdam en sommige andere regio's kan dit gelukkig ook al met korting. Mijn oude OV komt er eigenlijk alleen aan te pas bij treinreizen omdat NS Flex nog niet beschikbaar is.
 
 Dat zette mij aan het denken: waar kun je eigenlijk al met korting reizen met OVpay? De website heeft geen overzicht en vervoerders weten deze informatie vaak ook goed te verstoppen. Ik zocht uit in welke regio's je al kan reizen met je betaalpas én korting. Op een enkele plek is er zelfs een maximumtarief per dag als je reist met je betaalpas.
 
