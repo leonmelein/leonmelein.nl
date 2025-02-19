@@ -1,9 +1,9 @@
 +++
 date = "2025-02-18T12:00:00+01:00"
 draft = false
-title = "OV-abonnement op je betaalpas: hoe staat het ermee?"
-slug = "ov-abonnement-op-je-betaalpas"
-summary = "Reizen met een abonnement op je betaalpas kan nog lang niet overal. Maar wél in deze gevallen."
+title = "OV-abonnement op betaalpas: hoe staat het ermee?"
+slug = "ov-abonnement-op-betaalpas"
+summary = "Reizen met je betaalpas én korting? Dat kan nog lang niet overal. Maar wél in deze regio's."
 keywords = ['OVpay', 'OV', 'betaalpas']
 +++
 
