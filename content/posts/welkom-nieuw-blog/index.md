@@ -1,8 +1,10 @@
 +++
 date = '2025-02-18T09:00:00+01:00'
 draft = false
-title = 'Welkom op mijn nieuwe blog!'
-summary = 'Een nieuw begin voor 2025.'
+title = 'Een nieuwe site in een turbulente wereld'
+summary = 'Tijd voor een eigen plek die niet in handen in van techmiljardairs.'
 +++
 
-Tijdens de kerstdagen heb ik mijn website een broodnodige update gegeven! Nu met GitOps deployment.
+De toenemende macht van techmiljardairs baart me zorgen. Het lijkt erop dat het internet de komende jaren onherkenbaar gaat veranderen - met grote risico's voor onze vrijheden. Daarom heb ik mijn website een broodnodige update gegeven met een frisse look, betrouwbare technologie en de belofte dat ik vaker nieuws ga delen hier.
+
+Deze site is mijn manier om een stukje van mijn vrijheid te bewaken. Gebouwd op open source software, gehost in Nederland, zonder AI. Verfrissend ouderwets, zou ik bijna zeggen. Kijk rond, lees over de projecten waar ik aan werk of heb gewerkt, en vertel me wat je ervan vindt. Ik hoor graag je feedback!
