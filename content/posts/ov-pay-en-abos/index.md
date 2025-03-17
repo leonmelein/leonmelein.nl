@@ -1,5 +1,5 @@
 +++
-date = "2025-02-18T12:00:00+01:00"
+date = "2025-03-16T12:00:00+01:00"
 draft = false
 title = "OV-abonnement op betaalpas: hoe staat het ermee?"
 slug = "ov-abonnement-op-betaalpas"

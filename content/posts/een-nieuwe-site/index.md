@@ -1,5 +1,5 @@
 +++
-date = '2025-02-18T09:00:00+01:00'
+date = '2025-03-15T09:00:00+01:00'
 draft = false
 title = 'Een nieuwe site in een turbulente wereld'
 summary = 'Tijd voor een eigen plek - niet in handen van techmiljardairs.'
