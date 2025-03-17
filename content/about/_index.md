@@ -13,6 +13,6 @@ Met mijn Noord-Nederlandse portie nuchterheid en hart voor het maatschappelijk b
 
 Naast mijn werk als software developer spendeer ik mijn tijd graag aan sport, politiek en creativiteit. Het liefst combineer ik elementen hiervan in mijn werk en opdrachten. Ik krijg energie van projecten met maatschappelijke relevantie, waarmee ik het leven van anderen een stukje mooier van wordt.
 
-Naast mijn theoretische achtergrond, mijn studie Informatiekunde, heb ik in twaalf jaar tijd mijn kennis en vaardigheden breed ontwikkeld. *Learning by doing*, laten we het zo noemen. Inmiddels voel ik me thuis in websites en apps maken, grafisch design, video’s maken en editen, fotografie en programmeren. Neem vooral een kijkje bij de [projecten] op deze site.
+Naast mijn theoretische achtergrond, mijn studie Informatiekunde, heb ik in twaalf jaar tijd mijn kennis en vaardigheden breed ontwikkeld. *Learning by doing*, laten we het zo noemen. Inmiddels voel ik me thuis in websites en apps maken, grafisch design, video’s maken en editen, fotografie en programmeren. Neem vooral een kijkje bij mijn [projecten](/projects).
 
 Wil je meer over mij weten? Neem dan ook een kijkje op mijn [LinkedIn-profiel](https://www.linkedin.com/in/leonmelein).
