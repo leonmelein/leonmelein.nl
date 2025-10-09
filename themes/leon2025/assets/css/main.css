@@ -4,8 +4,12 @@
         oklch(63.13% 0.1588 244.97),
         oklch(63.13% 0.1588 244.97)
     );
+    --bg-color: light-dark(
+        oklch(1 0 0), 
+        oklch(0 0 0)
+    );
     --text-color: light-dark(oklch(0% 0 0), oklch(100% 0 0));
-    --meta-color: light-dark(#oklch(46.04% 0 0), oklch(70.25% 0 0));
+    --meta-color: light-dark(oklch(46.04% 0 0), oklch(70.25% 0 0));
     --selection-color: light-dark(
         oklch(0.69 0.17 245.44 / 0.35),
         oklch(0.69 0.17 245.44 / 0.35)
@@ -71,10 +75,9 @@
 
 @layer base {
     body {
-        max-width: 42rem;
         font-size: 1.125rem;
         margin: auto;
-        margin-top: 1em;
+        background-color: var(--bg-color);
         font-family: "Source Sans 3", sans-serif;
     }
 
@@ -145,18 +148,23 @@
 
 @layer nav {
     header {
+        padding-top: .5em;
+        padding-bottom: .5em;
+        background-color: var(--bg-color);
+        position: sticky;
+        top: 0;
+    }
+
+    .header-content {
+        max-width: 60rem;
+        margin: auto;
         display: grid;
         grid-template-columns: 1fr 3fr;
         align-items: center;
         justify-items: start;
-        box-sizing: border-box;
-        margin: 0;
-        padding: .5em 1.5em .25em 1em;
-        backdrop-filter: blur(8px);
     }
 
     nav {
-        /* margin-top: 0.33em; */
         text-align: right;
         width: 100%;
     }
@@ -210,8 +218,9 @@
         }
     }
 
-    footer > hr {
-        margin-top: 1em;
+    footer {
+        max-width: 42rem;
+        margin: auto;
     }
 
     ul.links {
@@ -270,6 +279,8 @@
     main {
         margin-left: 1em;
         margin-right: 1em;
+        max-width: 42rem;
+        margin: auto;
     }
 
     article {
@@ -389,6 +400,7 @@
 
         .meta {
             font-size: 1rem;
+            margin-bottom: 0.5rem;
             color: var(--meta-color);
 
             .technologies > p {
@@ -396,11 +408,15 @@
                 margin-right: 0.33rem;
             }
         }
+
+        h1 {
+            margin-bottom: 0;
+        }
     }
 }
 
 @layer mobile {
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 1200px) {
         body {
             margin: 1rem;
             font-size: 1rem;
