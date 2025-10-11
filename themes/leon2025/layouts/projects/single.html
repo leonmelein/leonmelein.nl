@@ -3,7 +3,6 @@
 {{ $dateHuman := .Date | time.Format "2006" }}
 
 <article class="project">
-    
     {{ with .Resources.GetMatch "cover.*" }}
         <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="">
     {{ end }}
@@ -11,12 +10,11 @@
     <div class="meta">
         <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
         {{ with .Params.technologies }}
-        <span class="technologies">
-        &nbsp;·&nbsp;
-        {{ range . }}
-            <p>{{ title . }}</p>
-        {{ end }}
-        </span>
+            <span class="technologies">
+            {{ range . }}
+                <p>{{ title . }}</p>
+            {{ end }}
+            </span>
         {{ end }}
     </div>
     

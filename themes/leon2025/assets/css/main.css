@@ -100,6 +100,15 @@
         margin-bottom: 1em;
     }
 
+    a {
+        color: var(--brand-color);
+        text-decoration: none;
+    }
+
+    a:hover {
+        font-weight: 600;
+    }
+
     hr {
         border-color: var(--brand-color);
         border-style: solid;
@@ -395,7 +404,13 @@
 
     .project {
         time {
-            margin: 0;
+            margin: 0;            
+        }
+
+        time:after {
+            content: ' ›  ';
+            color: var(--brand-color);
+            font-size: 1.3rem;
         }
 
         .meta {
@@ -405,7 +420,14 @@
 
             .technologies > p {
                 display: inline;
-                margin-right: 0.33rem;
+            }
+
+            .technologies > p:after {
+                content: ' · '
+            }
+
+            .technologies> p:last-of-type:after {
+                content: ''
             }
         }
 
