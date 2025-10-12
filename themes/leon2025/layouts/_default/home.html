@@ -1,6 +1,7 @@
 {{ define "main" }}
   {{ .Content }}
-  {{ range (where .Site.RegularPages "Section" "posts") }}
+  <div class="content">
+    {{ range (where .Site.RegularPages "Section" "posts") }}
     <article class="listitem">
         <div class="item-content">
          <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
@@ -18,4 +19,5 @@
     </article>
     <hr/>
   {{ end }}
+  </div>
 {{ end }}

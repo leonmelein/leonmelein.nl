@@ -1,28 +1,27 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  <div>
-    {{ range .Pages.ByDate.Reverse }}
-        <article class="projectitem">
-            <a href="{{ .RelPermalink }}">
-            {{ with .Resources.GetMatch "thumb.*" }}
-                <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="{{ .Title }}" class="thumb">
-            {{ end }}
-            {{/*  {{ with .Resources.GetMatch "cover.*" }}
-                {{ with .Fill "400x400 q100 Center webp" }}
-                <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="" class="thumb">
+    <h1>{{ .Title }}</h1>
+    <div>
+        {{ range .Pages.ByDate.Reverse }}
+            <article class="projectitem">
+                <a href="{{ .RelPermalink }}">
+                {{ with .Resources.GetMatch "thumb.*" }}
+                    <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="{{ .Title }}" class="thumb">
                 {{ end }}
-            {{ end }}  */}}
-            </a>
-        
-            <div class="item-content">
-                {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-                {{ $dateHuman := .Date | time.Format "2006" }}
-                <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
-                <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-                <p>{{ .Params.description  | plainify }}</p>
-            </div>
-        </article>
-    {{ end }}
-  </div>
-  
+                {{/*  {{ with .Resources.GetMatch "cover.*" }}
+                    {{ with .Fill "400x400 q100 Center webp" }}
+                    <img src="{{ .RelPermalink }}" style="aspect-ratio: {{ .Width }}/{{ .Height }}" alt="" class="thumb">
+                    {{ end }}
+                {{ end }}  */}}
+                </a>
+            
+                <div class="item-content">
+                    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+                    {{ $dateHuman := .Date | time.Format "2006" }}
+                    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+                    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+                    <p>{{ .Params.description  | plainify }}</p>
+                </div>
+            </article>
+        {{ end }}
+    </div>  
 {{ end }}
