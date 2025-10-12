@@ -1,14 +1,11 @@
 name = 'Léon 2025'
 license = 'MIT'
 licenselink = 'https://github.com/owner/repo/LICENSE'
-description = 'Léons Theme'
+description = 'Léon's Theme'
 
 # The home page of the theme, where the source can be found
-homepage = 'https://github.com/leonmelein/.nl'
+homepage = 'https://github.com/leonmelein/leonmelein'
 
-# Taxonomy terms
-# tags = ['blog', 'company']
-# features = ['some', 'awesome', 'features']
 
 # If the theme has a single author
 [author]
