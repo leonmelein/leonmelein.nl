@@ -8,6 +8,10 @@
         oklch(1 0 0), 
         oklch(0 0 0)
     );
+    --bg-content-color: light-dark(
+        oklch(0.9821 0 0),
+        oklch(0 0 0)
+    );
     --text-color: light-dark(oklch(0% 0 0), oklch(100% 0 0));
     --meta-color: light-dark(oklch(46.04% 0 0), oklch(70.25% 0 0));
     --selection-color: light-dark(
@@ -283,19 +287,38 @@
 }
 
 @layer content {
-    /* main > h1 {
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-    } */
     main {
         min-height: 80vh;
-        background-color: var(--bg-color);
+        background-color: var(--bg-content-color);
     }
 
-    div.content {
+    .content {
         max-width: 42rem;
         margin: auto;
         padding-bottom: 1em;
+        padding-top: 1rem;
+
+        h1 {
+            margin-bottom: .5em;
+        }
+
+        article > h1 {
+            margin-bottom: 0;
+        }
+
+        hr {
+            border-color: var(--divider-bg);
+            border-width: 0.01em;
+            border-style: solid;
+        }
+
+        hr:last-of-type {
+            display: none;
+        }
+
+        a:hover {
+            font-weight: 600;
+        }
     }
 
     article {
@@ -353,12 +376,18 @@
         /* display: grid;
         grid-template-columns: 4fr 1fr; */
         justify-content: start;
+        margin-bottom: 1em;
 
         .item-content {
             /* margin-left: 1em; */
 
             h2 {
                 line-height: 1.3lh;
+            }
+
+            h2:before {
+                content: "› ";
+                font-weight: 400;
             }
 
             p {
@@ -388,6 +417,12 @@
             h2 {
                 line-height: 1.3lh;
             }
+
+            h2 > a:hover:before {
+                content: "› ";
+                color: var(--brand-color);
+                font-weight: 400;
+            }
         }
 
         p {
@@ -398,24 +433,6 @@
             color: var(--meta-color);
             display: inline-block;
             margin-bottom: 0em;
-        }
-    }
-
-    .content {
-        padding-top: 1rem;
-
-        hr {
-            border-color: var(--divider-bg);
-            border-width: 0.01em;
-            border-style: solid;
-        }
-
-        hr:last-of-type {
-            display: none;
-        }
-
-        a:hover {
-            font-weight: 600;
         }
     }
 
@@ -451,6 +468,7 @@
         h1 {
             margin-bottom: 0;
         }
+
     }
 }
 
