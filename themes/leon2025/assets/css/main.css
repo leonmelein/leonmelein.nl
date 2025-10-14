@@ -10,7 +10,7 @@
     );
     --bg-content-color: light-dark(
         oklch(0.9821 0 0),
-        oklch(0 0 0)
+        oklch(0.29 0 0)
     );
     --text-color: light-dark(oklch(0% 0 0), oklch(100% 0 0));
     --meta-color: light-dark(oklch(46.04% 0 0), oklch(70.25% 0 0));
@@ -288,7 +288,7 @@
 
 @layer content {
     main {
-        min-height: 80vh;
+        min-height: 85vh;
         background-color: var(--bg-content-color);
     }
 
