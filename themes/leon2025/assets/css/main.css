@@ -438,12 +438,6 @@
             h2 {
                 line-height: 1.3lh;
             }
-
-            h2 > a:hover:before {
-                content: "› ";
-                color: var(--brand-color);
-                font-weight: 400;
-            }
         }
 
         p {
