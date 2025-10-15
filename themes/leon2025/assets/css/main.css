@@ -2,7 +2,7 @@
     color-scheme: light dark;
     --brand-color: light-dark(
         oklch(63.13% 0.1588 244.97),
-        oklch(63.13% 0.1588 244.97)
+        oklch(0.52 0.13 245.22)
     );
     --bg-color: light-dark(
         oklch(1 0 0), 
@@ -154,10 +154,10 @@
         color: var(--brand-color);
     }
 
-    .brand::before {
+    /* .brand::before {
         content: "› ";
         font-weight: 400;
-    }
+    } */
 }
 
 @layer nav {
@@ -165,8 +165,8 @@
         padding-top: .5em;
         padding-bottom: .5em;
         background-color: var(--bg-color);
-        position: sticky;
-        top: 0;
+        /* position: sticky;
+        top: 0; */
 
         .header-content {
             max-width: 60rem;
@@ -175,6 +175,23 @@
             grid-template-columns: 1fr 3fr;
             align-items: center;
             justify-items: start;
+            
+            a.home-link {
+                display: grid;
+                grid-template-columns: auto 2fr;
+                grid-column-gap: .25em;
+                align-items: center;
+                justify-items: end;
+            }
+
+            a > h1 {
+                
+            }
+
+            a > img.brand-chevron {
+                height: 1lh;
+                display: inline;
+            }
         }
 
         nav {
